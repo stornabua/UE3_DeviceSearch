@@ -29,7 +29,6 @@ class RegularBluetooth extends BluetoothAbstract{
     private BluetoothAdapter mBluetoothAdapter;
     private Context context;
 
-
     private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
 
         @Override
